@@ -31,7 +31,7 @@ const Login = (props) => {
 
   return (
     <div className="form-container">
-      <Form size = "massive" onSubmit={onSubmit} noValidate className={loading ? "loading" : ""}>
+      <Form size = {props.size} onSubmit={onSubmit} noValidate className={loading ? "loading" : ""}>
         <Form.Input
           type="text"
           label="username"
