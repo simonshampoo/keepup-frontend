@@ -1,0 +1,17 @@
+.page-title {
+  display: block !important;
+  margin-left: 0.25em;
+  text-align: center;
+  font-size: 4em !important;
+  margin-top: 10px;
+}
+
+.form-container{
+    width: 400px; 
+    margin: auto; 
+}
+
+.register-button {
+    color: teal;
+    margin: auto; 
+}
