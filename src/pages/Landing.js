@@ -30,16 +30,15 @@ const Landing = () => {
           <h1
             className="fade-in-image"
             style={{
-              marginLeft: 300,
+              marginLeft: 200,
               width: 550,
               marginTop: "15%",
-              fontSize: 90,
+              fontSize: 80,
               fontWeight: 600,
               wordWrap: "word-break",
             }}
           >
-            communicate with your{" "}
-            <p style={{ color: "#4376A6" }}>community.</p>
+            communicate with your <p style={{ color: "#4376A6" }}>community.</p>
           </h1>
         </Grid.Column>
         <Grid.Column style={{ width: "40%" }}>
@@ -48,13 +47,14 @@ const Landing = () => {
             <Card className="card" fluid>
               <Card.Content>
                 <Register
+                  size="large"
                   header="Welcome to KeepUp!"
                   tagline={"Find and host new experiences"}
                 />
               </Card.Content>
             </Card>
           ) : (
-            <Image style = {{marginTop: 60}}float="left" src={ppl} />
+            <Image style={{ marginTop: 60 }} float="left" src={ppl} />
           )}
         </Grid.Column>
       </Grid>
@@ -120,20 +120,20 @@ const Landing = () => {
         </Grid.Row>
         <List horizontal style={{ marginTop: 20 }}>
           <List.Item>
-            <List.Icon size = "huge" name="users" />
+            <List.Icon size="huge" name="users" />
             <List.Content as="div" style={{ fontWeight: 900, fontSize: 24 }}>
               foster a community
             </List.Content>
           </List.Item>
           <List.Item>
-            <List.Icon size = "huge" name="world" />
+            <List.Icon size="huge" name="world" />
             <List.Content as="div" style={{ fontWeight: 900, fontSize: 24 }}>
               no barriers, no restrictions
             </List.Content>
           </List.Item>
           <List.Item>
-            <List.Icon size = "huge" name="group" />
-            <List.Content as="div" style={{  fontWeight: 900,fontSize: 24 }}>
+            <List.Icon size="huge" name="group" />
+            <List.Content as="div" style={{ fontWeight: 900, fontSize: 24 }}>
               easy integration
             </List.Content>
           </List.Item>
