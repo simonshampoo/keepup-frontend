@@ -33,7 +33,7 @@ const Register = (props) => {
 
   return (
     <div className="form-container">
-      <Form size = "massive" onSubmit={onSubmit} noValidate className={loading ? "loading" : ""}>
+      <Form size = {props.size} onSubmit={onSubmit} noValidate className={loading ? "loading" : ""}>
         <h1>{props.header}</h1>
         <p>{props.tagline}</p>
         <Form.Input
