@@ -132,7 +132,7 @@ const Landing = () => {
             </List.Content>
           </List.Item>
           <List.Item>
-            <List.Icon size="huge" name="group" />
+            <List.Icon size="huge" name="sitemap" />
             <List.Content as="div" style={{ fontWeight: 900, fontSize: 24 }}>
               easy integration
             </List.Content>
